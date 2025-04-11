@@ -1,9 +1,10 @@
+import { Outlet } from "react-router"
 import "./App.css"
 
 function App() {
   return (
     <main>
-      <img src="./dojo.png" alt="Time to fight!" />
+      <Outlet />
     </main>
   )
 }
